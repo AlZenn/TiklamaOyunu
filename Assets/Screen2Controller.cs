@@ -11,6 +11,7 @@ public class Screen2Controller : MonoBehaviour
     
     private void Start()
     {
+        Time.timeScale = 1f;
         _loadingSlider = GameObject.Find("LoadingSlider").GetComponent<Slider>();
         
         _loadingSlider.value = 15f;

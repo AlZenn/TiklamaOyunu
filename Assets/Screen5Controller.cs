@@ -108,6 +108,7 @@ public class Screen5Controller : MonoBehaviour
     void _mainMenuButton()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
     }
     void _exitButton()
     {
